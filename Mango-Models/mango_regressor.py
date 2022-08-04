@@ -62,7 +62,7 @@ y_pos = np.arange(len(error))
 
 plt.figure(figsize = (8, 6))
 plt.bar(y_pos, error, align = 'center')
-plt.ylabel('Positive Difference Between Predicted and Actual Values')
+plt.ylabel('Positive Difference Between Predicted and Actual Values (on Test Data)')
 plt.xlabel('Input Index')
 plt.title('XGBoost Regression Error')
 
