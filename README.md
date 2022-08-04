@@ -15,7 +15,7 @@ These models each use the same dataset and predict features of a Harumanis mango
 Feel free to further tune the hyperparameters or build upon either of the models!
 
 ## The Dataset
-The dataset used here can be found at this link: https://www.kaggle.com/datasets/mohdnazuan/harumanis-mango-physical-measurement. Credit for the dataset collection goes to **stpete_ishii**, **AashiDutt**, **whxna-0615**, and others on *Kaggle*. The dataset describes approximately 67 Harumanis mangos, providing the following attributes:
+The dataset used here can be found at this link: https://www.kaggle.com/datasets/mohdnazuan/harumanis-mango-physical-measurement. Credit for the dataset collection goes to **stpete_ishii**, **AashiDutt**, **whxna-0615**, and others on *Kaggle*. The dataset describes approximately 67 Harumanis mangoes, providing the following attributes:
 
 - Weight (in grams)
 - Length (in centimeters)
