@@ -22,7 +22,7 @@ The dataset used here can be found at this link: https://www.kaggle.com/datasets
 - Circumference (in centimeters)
 - Grade (A or B)
 
-Note that in the **dogecoin_forecaster.py** file the data is preprocessed with Scikit-Learn's **MinMaxScaler()**
+Note that in both the **mango_regressory** and the **mango_classifier.py** files the data is preprocessed with Scikit-Learn's **StandardScaler()**. The data in the **mango_classifier.py** file is not over sampled because it is not significantly unbalanced; there is a 51%-49% split between the two classes, so neither of the classes are viewed by the model during the training process substantially more than the other.
 
 ## Libraries
 This neural network was created with the help of the Tensorflow and Scikit-Learn libraries.
