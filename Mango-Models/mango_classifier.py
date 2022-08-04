@@ -9,7 +9,7 @@ from imblearn.over_sampling import SMOTE
 from sklearn.svm import SVC
 
 # Load dataset
-df = pd.read_csv('Data.csv')
+df = pd.read_csv('mango_data.csv')
 df = pd.DataFrame(df)
 
 # Remove unnecessary columns from the dataset
