@@ -25,8 +25,8 @@ The dataset used here can be found at this link: https://www.kaggle.com/datasets
 Note that in both the **mango_regressor.py** and the **mango_classifier.py** files the data is preprocessed with Scikit-Learn's **StandardScaler()**. The data in the **mango_classifier.py** file is not over sampled because it is not significantly unbalanced; there is a 51%-49% split between the two classes, so neither of the classes are viewed by the model during the training process substantially more than the other.
 
 ## Libraries
-This neural network was created with the help of the Tensorflow and Scikit-Learn libraries.
-- Tensorflow's Website: https://www.tensorflow.org/
-- Tensorflow Installation Instructions: https://www.tensorflow.org/install
+These models were created with the help of the Scikit-Learn and XGBoost libraries.
 - Scikit-Learn's Website: https://scikit-learn.org/stable/
 - Scikit-Learn's Installation Instructions: https://scikit-learn.org/stable/install.html
+- XGBoost's Website: https://xgboost.readthedocs.io/en/stable/#
+- XGBoost's Installation Instructions: https://xgboost.readthedocs.io/en/stable/install.html
